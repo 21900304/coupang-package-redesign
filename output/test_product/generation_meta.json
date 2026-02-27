@@ -1,0 +1,43 @@
+{
+  "input_image": "../tasks/test_product/input.jpg",
+  "product_analysis": "제품 패키지 이미지 분석:\n\n1.  **제품명/브랜드명:**\n    *   브랜드명: CHARM GOODS (참 굿즈)\n    *   제품명: 청국장 환 (Cheonggukjang Pills)\n\n2.  **제품 카테고리:**\n    *   식품 (건강 식품/건강 보조 식품)\n\n3.  **주요 색상 구성:**\n    *   연한 민트 그린/하늘색 계열 (전체 배경)\n    *   진한 녹색 (하단 부분, 로고, 글씨 일부)\n    *   흰색 (제품 정보 표기 박스)\n    *   베이지/갈색 (내용물 색상)\n\n4.  **현재 패키지 형태:**\n    *   스탠드형 파우치 (지퍼팩 가능성 있음)\n\n5.  **현재 디자인의 특징 및 분위기:**\n    *   깔끔하고 모던한 디자인입니다.\n    *   연한 민트 그린을 주 색상으로 사용하여 자연 친화적이고 건강한 느낌을 강조합니다.\n    *   제품 내용물을 직접 볼 수 있는 투명한 창을 두어 신뢰감을 높입니다.\n    *   \"CHARM GOODS\" 로고와 폰트가 심플하여 정돈된 분위기를 자아냅니다.\n    *   전체적으로 차분하고 신뢰성 있는 건강식품의 이미지를 전달합니다.",
+  "style_profile_used": "../output/style_profile.json",
+  "task_md": "../tasks/test_product/task.md",
+  "variations": [
+    {
+      "status": "success",
+      "path": "..\\output\\test_product\\variation_1_minimal_white.png",
+      "attempts": 1,
+      "style_label": "미니멀 화이트",
+      "variation_id": 1
+    },
+    {
+      "status": "success",
+      "path": "..\\output\\test_product\\variation_2_premium_dark.png",
+      "attempts": 1,
+      "style_label": "프리미엄 다크",
+      "variation_id": 2
+    },
+    {
+      "status": "success",
+      "path": "..\\output\\test_product\\variation_3_natural_craft.png",
+      "attempts": 1,
+      "style_label": "내추럴 크래프트",
+      "variation_id": 3
+    },
+    {
+      "status": "success",
+      "path": "..\\output\\test_product\\variation_4_modern_flat.png",
+      "attempts": 1,
+      "style_label": "모던 플랫",
+      "variation_id": 4
+    },
+    {
+      "status": "success",
+      "path": "..\\output\\test_product\\variation_5_luxury_gradient.png",
+      "attempts": 1,
+      "style_label": "럭셔리 그라디언트",
+      "variation_id": 5
+    }
+  ]
+}
